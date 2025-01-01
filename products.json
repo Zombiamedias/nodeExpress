@@ -1,0 +1,32 @@
+[
+    {
+        "name": "brush",
+        "price": 10.99,
+        "category": "house",
+        "description": "a usefull bvrush with you can clean your teeth"
+    },
+    {
+        "name": "toothpaste",
+        "price": 5.99,
+        "category": "house",
+        "description": "a usefull toothpaste with you can clean your teeth"
+    },
+    {
+        "name": "iPhone",
+        "price": 4500,
+        "category": "Tenchology",
+        "description": "comunication think with that u can call your parents"
+    },
+    {
+        "name": "Motorola",
+        "price": 5000,
+        "category": "Tenchology",
+        "description": "comunication think with that u can call your parents"
+    },
+    {
+        "name": "Samsung",
+        "price": 900,
+        "category": "Tenchology",
+        "description": "comunication think with that u can call your parents"
+    }
+]
