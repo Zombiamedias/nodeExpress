@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser'
 
-import productsRoutes from './routes/productsRoutes.js'
+import productsRoutes from './routes/productsRouter.js'
 
 const app = express();
 const PORT = 5000;
