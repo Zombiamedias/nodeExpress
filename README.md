@@ -102,7 +102,7 @@ Bienvenido a la API restfull, aqui puedes gestionar tus productos, los cuales es
 ```
 ### **D) Modificar un producto**
 - **URL:** `/products/**id del producto**` *se consigue en el espacio creado id unico al crear un producto.*
-- **Metodo:** `PATCH`
+- **Metodo:** `PUT`
 - **Descripcion:** Cambiar algun dato de un producto.
 - **Mensaje de Respuesta**
 - `product with id ${id} was been updated!`

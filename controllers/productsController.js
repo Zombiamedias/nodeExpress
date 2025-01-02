@@ -30,9 +30,14 @@ export const deleteProduct = (req, res) => { // delete product by id
 }
 export const updateProduct = (req, res) => { // update product by id
     const { id } = req.params;
-    const { name, description, price, category } = req.body;
-    const product = products.find((product) => product.id == id); // find the product to be updated
+    const { name, price, category, description } = req.body;
+    const product = products.find((product) => product.id === id); // find the product to be updated
+    let errors = validationResult(req);
 
+    if (!errors.isEmpty()) { res.status(400).json({ errors: errors.array() }) }
+    if (!product) {
+        return res.status(404).send('product not found');
+    }
     // modify parameters
     if (name) product.name = name;
     if (description) product.description = description;

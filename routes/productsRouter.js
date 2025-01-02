@@ -16,7 +16,7 @@ const validations = [
 router.get('/', getAllProducts)
 router.post('/', validations, createProduct);
 router.get('/:id', getProduct);
-router.patch('/:id', updateProduct);
+router.put('/:id', updateProduct);
 router.delete('/:id', deleteProduct);
 
 export default router;
