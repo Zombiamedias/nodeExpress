@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.use('/products', productsRoutes)
 
-app.get('/', (req, res) => { res.send('Hello world') });
+app.get('/', (req, res) => { res.send('Hello Ezquiel 😁') });
 
 app.listen(PORT, () =>
     console.log(`Server running on port: http://localhost:${PORT}`)
