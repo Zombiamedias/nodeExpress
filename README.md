@@ -147,11 +147,11 @@ git clone https://github.com/Zombiamedias/nodeExpress.git
 ```
 2. Descargar la imagen docker:
 ```bash
-docker pull mapemc/node-api-restfull:latest
+docker pull mapemc/node-api:latest
 ```
 3. Corre el contenedor:
 ```bash
-docker run -p 5000:5000 mapemc/node-api-
+docker run -p 5000:5000 mapemc/node-api
 ```
 4. Accede a la API en `http://localhost:5000`.
 5. *Se puede ejecutar con `npm start` en el bash con node y probar con postman como alternativa*
@@ -160,10 +160,18 @@ docker run -p 5000:5000 mapemc/node-api-
 - Es un gran desafio para mi como frontend este tema, me diverti mucho, dejare los enlaces que me salvaron y de que la pena por enviar tarde la prueba no te pregunte, espero que haya cumplido con tus espectativas, aun asi, aprendi mucho y se que me costo hacer esta API, aun asi, soy feliz con esto y me ayudo mucho en conocimiento y backend.
 - planeo mas adelante con un form de html en react pero para mi pag principal. 
 ---
-#### links donde me base para ayudarme
+### links donde me base para ayudarme
 - <https://stackoverflow.com/questions/8817423/why-is-dirname-not-defined-in-node-repl>
 - <https://stackoverflow.com/questions/74522014/how-to-authenticate-with-private-repository-in-docker-container>
 - <https://www.hostinger.co/tutoriales/como-crear-contenedor-docker>
 - <https://www.ochobitshacenunbyte.com/2020/12/14/como-accedo-a-un-contenedor-con-docker/>
 - <https://hub.docker.com/repository/docker/mapemc/node-api/general?editDescription=true>
 - <https://stackoverflow.com/questions/41553291/can-you-import-nodes-path-module-using-import-path-from-path>
+
+### links de documentacion de herramientas para apoyo
+- **Express** <https://expressjs.com/es/starter/installing.html>
+- **Express-validator** <https://express-validator.github.io/docs/>
+- **Docker** <https://docs.docker.com/>
+- **uuid** <https://github.com/uuidjs/uuid#readme>
+- **nodemon** <https://github.com/remy/nodemon>
+
