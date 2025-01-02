@@ -147,11 +147,11 @@ git clone https://github.com/Zombiamedias/nodeExpress.git
 ```
 2. Descargar la imagen docker:
 ```bash
-docker pull mapemc/node-api:latest
+docker pull mapemc/node-api-restfull:latest
 ```
 3. Corre el contenedor:
 ```bash
-docker run -p 5000:5000 mapemc/node-api
+docker run -p 5000:5000 mapemc/node-api-
 ```
 4. Accede a la API en `http://localhost:5000`.
 5. *Se puede ejecutar con `npm start` en el bash con node y probar con postman como alternativa*
